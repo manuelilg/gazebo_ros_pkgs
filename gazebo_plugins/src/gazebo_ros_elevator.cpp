@@ -74,6 +74,8 @@ void GazeboRosElevator::Load(physics::ModelPtr _parent, sdf::ElementPtr _sdf)
   // start custom queue for elevator
   this->callbackQueueThread_ =
     boost::thread(boost::bind(&GazeboRosElevator::QueueThread, this));
+
+  ROS_INFO("Modified Plugin Loaded");
 }
 
 /////////////////////////////////////////////////

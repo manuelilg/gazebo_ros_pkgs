@@ -21,7 +21,8 @@
 #include <sdf/sdf.hh>
 
 // Gazebo
-#include <gazebo/plugins/ElevatorPlugin.hh>
+#include <gazebo_plugins/ElevatorPlugin.hh>
+//#include <gazebo/plugins/ElevatorPlugin.hh>
 
 // ROS
 #include <ros/ros.h>
